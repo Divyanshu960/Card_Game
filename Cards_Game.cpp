@@ -117,14 +117,7 @@ void Cards :: choice(Cards& p, Cards& obj1 , Cards& obj2, Cards& obj3)
 
 void Cards :: display()
 {   
-    if(c==1)
-    {
-        cout << "You Won !!!" << endl;
-    }
-    else
-    {
-        cout << "You Lost... Nice try Dummy!!!" << endl;
-    }
+    (c==1)?cout << "You Won !!!" << endl:cout << "You Lost... Nice try Dummy!!!" << endl;
 }
 
 
